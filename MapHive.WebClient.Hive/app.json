@@ -55,7 +55,9 @@
      *      ]
      */
     "requires": [
-        "mh"
+        "mh",
+        "icon-54",
+        "icon-54-com"
     ],
 
     /**
