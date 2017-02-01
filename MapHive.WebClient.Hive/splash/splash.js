@@ -16,9 +16,10 @@ var splash = (function() {
                     '<div id="splash-screen-container">' +
                         '<div id="splash-screen-mask"></div>' +
                         '<div id="load-info-container">' +
-                            '<span style="position: relative; top: 50%;transform: translateY(-50%);">' +
-                                'Loading...' +
-                            '</span>' +
+                            // '<span style="position: relative; top: 50%;transform: translateY(-50%);">' +
+                            //     'Loading...' +
+                            // '</span>' +
+                            '<div class="cssload-whirlpool"></div>' +
                         '</div>' +
                     '</div>';
 
