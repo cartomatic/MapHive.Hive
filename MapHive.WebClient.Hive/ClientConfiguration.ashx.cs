@@ -9,7 +9,7 @@ using System.Security.Policy;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace MapHive.WebClient.HgisOld
+namespace MapHive.WebClient.Hive
 {
     /// <summary>
     /// Summary description for ClientConfiguration

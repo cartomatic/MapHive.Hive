@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="ClientConfiguration.ashx.cs" Class="MapHive.WebClient.HgisOld.ClientConfiguration" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="ClientConfiguration.ashx.cs" Class="MapHive.WebClient.Hive.ClientConfiguration" %>

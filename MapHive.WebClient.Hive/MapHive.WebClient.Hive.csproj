@@ -64,9 +64,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="WebClientConfigurationHelper">
-      <HintPath>..\..\MapHive.Server\WebClientConfigurationHelper\bin\Debug\WebClientConfigurationHelper.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -94,6 +91,12 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MapHive.Server\WebClientConfigurationHelper\WebClientConfigurationHelper.csproj">
+      <Project>{c7fa62ae-1911-41ad-9b1d-8ad9bbf976a4}</Project>
+      <Name>WebClientConfigurationHelper</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

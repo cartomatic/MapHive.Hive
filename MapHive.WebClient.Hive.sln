@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapHive.WebClient.Hive", "MapHive.WebClient.Hive\MapHive.WebClient.Hive.csproj", "{469876E3-EC82-4B27-A726-84D14DFF5040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClientConfigurationHelper", "..\MapHive.Server\WebClientConfigurationHelper\WebClientConfigurationHelper.csproj", "{C7FA62AE-1911-41AD-9B1D-8AD9BBF976A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{469876E3-EC82-4B27-A726-84D14DFF5040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{469876E3-EC82-4B27-A726-84D14DFF5040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{469876E3-EC82-4B27-A726-84D14DFF5040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FA62AE-1911-41AD-9B1D-8AD9BBF976A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FA62AE-1911-41AD-9B1D-8AD9BBF976A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FA62AE-1911-41AD-9B1D-8AD9BBF976A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FA62AE-1911-41AD-9B1D-8AD9BBF976A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
