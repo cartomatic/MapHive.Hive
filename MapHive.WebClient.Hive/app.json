@@ -57,7 +57,8 @@
     "requires": [
         "mh",
         "icon-54",
-        "icon-54-com"
+        "icon-54-com",
+        "linear-icons"
     ],
 
     /**
