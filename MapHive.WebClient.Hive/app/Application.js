@@ -39,7 +39,7 @@
          * @param cfg.userConfig
          * @param cfg.orgCtx
          */
-        onLaunchApp: function(cfg){
+        internalAppLaunch: function(cfg){
 
             //first make sure the base does what's required!
             this.callMeParent('internalAppLaunch', arguments);
