@@ -12,15 +12,20 @@
             'Hive.AppLauncher'
         ],
 
+        mixins: [
+            'mh.mixin.CallMeParent'
+        ],
+
         name: 'Hive',
 
         // //global shared controllers - they fire up automatically
         controllers: [
-            //use the customised Root
-            'Hive.controller.Root',
+            'mh.controller.Root',
 
             //use the default auth
             'mh.controller.Auth',
+
+            'mh.controller.Organisation',
 
             'mh.controller.Splash'
         ],
@@ -28,13 +33,16 @@
         //custom launcher class. this is where most app customisations take place
         appLauncher: 'Hive.AppLauncher',
 
-        onLaunchApp: function(){
+        /**
+         * internal app launch procedure
+         * @param cfg
+         * @param cfg.userConfig
+         * @param cfg.orgCtx
+         */
+        onLaunchApp: function(cfg){
 
             //first make sure the base does what's required!
-
-            //note: need to drilldown 2 levels, as in fact, this will be an instance of the app defined and launched in the app.js!
-            //this is needed, as the core funtionality is borrowed from the generic mh.Application
-            this.superclass.superclass.onLaunchApp.call(this);
+            this.callMeParent('internalAppLaunch', arguments);
 
 
             //the default mh.Application simply hides the splash screen, creates an instance of appLauncher and fires mhapp::loaded when ready
